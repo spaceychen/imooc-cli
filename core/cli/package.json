@@ -1,0 +1,30 @@
+{
+  "name": "@imoocli/cli",
+  "version": "0.0.1",
+  "description": "imooc-cli",
+  "author": "any",
+  "homepage": "",
+  "license": "MIT",
+  "bin": {
+    "imoocli": "bin/index.js"
+  },
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spaceychen/imooc-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "npmlog": "^7.0.1"
+  }
+}

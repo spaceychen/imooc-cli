@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "use-cli",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "用于测试 core/cli",
+  "devDependencies": {
+    "@imoocli/cli": "file:../../core/cli"
+  }
+}

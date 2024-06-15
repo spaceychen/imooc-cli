@@ -1,0 +1,37 @@
+{
+  "name": "@imoocli/cli",
+  "version": "0.0.5",
+  "description": "imooc系列项目的前端脚手架工具",
+  "bin": {
+    "imoocli": "bin/index.js"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spaceychen/imooc-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  },
+  "dependencies": {
+    "@imoocli/utils": "file:../../tools/utils",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "import-local": "^3.1.0",
+    "minimist": "^1.2.8",
+    "npmlog": "^7.0.1",
+    "path-exists": "^5.0.0",
+    "root-check": "^2.0.0",
+    "semver": "^7.6.2"
+  }
+}

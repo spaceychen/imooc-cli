@@ -1,10 +1,10 @@
 {
-  "name": "@imoocli/utils",
-  "version": "0.0.9",
-  "description": "imoocli's utils",
+  "name": "@imoocli/helper",
+  "version": "0.0.1",
+  "description": "helper",
   "author": "any <any>",
   "homepage": "",
-  "license": "MIT",
+  "license": "ISC",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
@@ -15,10 +15,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.spaceychen:spaceychen/imooc-cli.git"
+    "url": "git+ssh:git@github.com:spaceychen/imooc-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
-    "test": "node ./__tests__/util.test.js"
+    "test": "node ./__tests__/helper.test.js"
   },
   "dependencies": {
     "npmlog": "^7.0.1"

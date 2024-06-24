@@ -1,10 +1,13 @@
 {
   "name": "@imoocli/cli",
-  "version": "0.0.5",
-  "description": "imooc系列项目的前端脚手架工具",
+  "version": "0.0.9",
+  "description": "前端脚手架工具，imooc:web前端架构师课程项目",
   "bin": {
     "imoocli": "bin/index.js"
   },
+  "author": "spacey",
+  "homepage": "",
+  "license": "ISC",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
@@ -24,7 +27,8 @@
     "test": "node ./__tests__/cli.test.js"
   },
   "dependencies": {
-    "@imoocli/utils": "file:../../tools/utils",
+    "@imoocli/helper": "file:../../tools/helper",
+    "@imoocli/util": "file:../../tools/util",
     "colors": "^1.4.0",
     "dotenv": "^16.4.5",
     "import-local": "^3.1.0",

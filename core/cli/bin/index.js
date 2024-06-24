@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const importLocal = require("import-local");
-const { log } = require("@imoocli/utils");
+const { log } = require("@imoocli/helper");
 
 const isLocalPkg = importLocal(__filename);
 if (isLocalPkg) {

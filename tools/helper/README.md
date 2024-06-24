@@ -1,11 +1,11 @@
-# `utils`
+# `helper`
 
 > TODO: description
 
 ## Usage
 
 ```
-const util = require('util');
+const helper = require('helper');
 
 // TODO: DEMONSTRATE API
 ```

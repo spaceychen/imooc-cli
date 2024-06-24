@@ -6,7 +6,7 @@ const semver = require("semver");
 const minimist = require("minimist");
 const dotenv = require("dotenv");
 const colors = require("colors/safe");
-const { log, npminfo } = require("@imoocli/utils");
+const { log, npminfo } = require("@imoocli/helper");
 
 const pkg = require("../package.json");
 const { LOWEST_NODE_VERSION } = require("./const.js");

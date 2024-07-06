@@ -1,6 +1,13 @@
 {
-  "name": "root",
   "private": true,
+  "name": "root",
+  "author": "spacey",
+  "homepage": "https://github.com/spaceychen/imooc-cli#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spaceychen/imooc-cli.git"
+  },
   "workspaces": [
     "packages/*",
     "core/*",

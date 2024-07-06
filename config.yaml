@@ -1,0 +1,9 @@
+# 配置文件说明
+
+# 命令
+## 需提前将命令包安装到项目中去
+## 安装包粒度：单个集合包、命令包列表
+commands:
+  "@imoocli/commands"
+  # - init: "@imoocli/init"
+  # - add: "@imoocli/add"

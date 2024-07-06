@@ -1,0 +1,29 @@
+{
+  "name": "@imoocli/commands",
+  "version": "0.0.1",
+  "description": "",
+  "author": "any <any>",
+  "homepage": "https://github.com/spaceychen/imooc-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spaceychen/imooc-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/commands.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/spaceychen/imooc-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

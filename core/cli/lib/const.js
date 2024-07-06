@@ -1,1 +1,4 @@
-module.exports = { LOWEST_NODE_VERSION: "20.0.0" };
+module.exports = {
+  NAME: "imoocli",
+  LOWEST_NODE_VERSION: "20.0.0",
+};

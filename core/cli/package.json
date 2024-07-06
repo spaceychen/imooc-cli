@@ -27,15 +27,21 @@
     "test": "node ./__tests__/cli.test.js"
   },
   "dependencies": {
+    "@imoocli/commands": "file:../../commands/commands",
     "@imoocli/helper": "file:../../tools/helper",
     "@imoocli/util": "file:../../tools/util",
     "colors": "^1.4.0",
+    "commander": "^12.1.0",
     "dotenv": "^16.4.5",
+    "find-up": "^7.0.0",
+    "fs-extra": "^11.2.0",
     "import-local": "^3.1.0",
     "minimist": "^1.2.8",
+    "npminstall": "^7.12.0",
     "npmlog": "^7.0.1",
     "path-exists": "^5.0.0",
     "root-check": "^2.0.0",
-    "semver": "^7.6.2"
+    "semver": "^7.6.2",
+    "yaml": "^2.4.5"
   }
 }

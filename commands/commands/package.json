@@ -24,6 +24,7 @@
     "url": "https://github.com/spaceychen/imooc-cli/issues"
   },
   "dependencies": {
+    "@inquirer/prompts": "^5.1.2",
     "commander": "^12.1.0"
   }
 }

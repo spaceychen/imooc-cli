@@ -30,6 +30,7 @@
     "@imoocli/commands": "file:../../commands/commands",
     "@imoocli/helper": "file:../../tools/helper",
     "@imoocli/util": "file:../../tools/util",
+    "@inquirer/prompts": "^5.1.2",
     "colors": "^1.4.0",
     "commander": "^12.1.0",
     "dotenv": "^16.4.5",
